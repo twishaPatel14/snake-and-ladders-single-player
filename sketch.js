@@ -83,130 +83,54 @@ function checkForBlueUpsAndDowns(){
     blueSpaces = 81;
   }
 
- // if(blueSpaces === 74){
- //   Matter.Body.setVelocity(bluePiece.body, {x:12, y: -13});
-//blueSpaces = 92;
- // }
+ if(blueSpaces === 74){
+    Matter.Body.setVelocity(bluePiece.body, {x:12, y: -13});
+blueSpaces = 92;
+ }
  
   
 
   //snakes
- // if(blueSpaces === 43){
-  //  Matter.Body.setVelocity(bluePiece.body, {x:0, y: 20});
-  // blueSpaces = 18;
- // }
+  if(blueSpaces === 43){
+   Matter.Body.setVelocity(bluePiece.body, {x:0, y: 20});
+   blueSpaces = 18;
+  }
 
- // if(blueSpaces === 27){
- //   Matter.Body.setVelocity(bluePiece.body, {x: -12, y: 13});
- //   blueSpaces = 5;
- // }
+  if(blueSpaces === 27){
+    Matter.Body.setVelocity(bluePiece.body, {x: -12, y: 13});
+   blueSpaces = 5;
+  }
 
- // if(blueSpaces === 40){
- //   Matter.Body.setVelocity(bluePiece.body, {x:13, y:20});
- //   blueSpaces = 3;
- // }
+  if(blueSpaces === 40){
+    Matter.Body.setVelocity(bluePiece.body, {x:13, y:20});
+   blueSpaces = 3;
+  }
 
- // if(blueSpaces === 54){
- //   Matter.Body.setVelocity(bluePiece.body, {x: 19, y:13});
-  //  blueSpaces = 31;
-//  }
+  if(blueSpaces === 54){
+    Matter.Body.setVelocity(bluePiece.body, {x: 19, y:13});
+    blueSpaces = 31;
+  }
 
- // if(blueSpaces === 66){
- //   Matter.Body.setVelocity(bluePiece.body, {x:-5, y:15});
- //   blueSpaces = 45;
- // }
+  if(blueSpaces === 66){
+    Matter.Body.setVelocity(bluePiece.body, {x:-5, y:15});
+   blueSpaces = 45;
+  }
 
   if(blueSpaces === 76){
-    Matter.Body.setVelocity(bluePiece.body, {x:-3, y: 20});
+    Matter.Body.setVelocity(bluePiece.body, {x:-1, y: 20});
     blueSpaces = 58;
   }
 
   if(blueSpaces === 89){
-    Matter.Body.setVelocity(bluePiece.body, {x: -12, y: 17});
+    Matter.Body.setVelocity(bluePiece.body, {x: -7, y: 18});
     blueSpaces = 53;
   }
   if(blueSpaces === 99){
-    Matter.Body.setVelocity(bluePiece.body, {x: -12, y: 35});
+    Matter.Body.setVelocity(bluePiece.body, {x: -10, y: 35});
     blueSpaces = 41;
   }
 }
-/*function checkForRedUpsAndDowns(){
-  //ladders
-  if(redSpaces === 4){
-    Matter.Body.setVelocity(redPiece.body, {x: 7, y: -14});
-    redpaces = 25;
-  }
 
-  if(redSpaces === 13){
-    Matter.Body.setVelocity(redPiece.body, {x: -14, y: -20});
-    redSpaces = 46;
-  }
-
-  if(redSpaces ===33){
-    Matter.Body.setVelocity(redPiece.body, {x: 7, y: -6});
-    redSpaces = 49;
-  }
-
-  if(redSpaces === 42){
-    Matter.Body.setVelocity(redPiece.body, {x: 5, y: -13});
-    redSpaces = 63;
-  }
-  if(redSpaces === 50){
-    Matter.Body.setVelocity(redPiece.body, {x: -5, y:5});
-    redSpaces = 69;
-  }
-  if(redSpaces === 62){
-    Matter.Body.setVelocity(redPiece.body, {x: -3, y: -15});
-    redSpaces = 81;
-  }
-
-  if(redSpaces === 74){
-    Matter.Body.setVelocity(redPiece.body, {x: 3, y: -13});
-    redSpaces = 92;
-  }
-
-  
-
-  //snakes
-  if(redSpaces === 43){
-    Matter.Body.setVelocity(redPiece.body, {x:2, y: 20});
-    redSpaces = 18;
-  }
-
-  if(redSpaces === 27){
-    Matter.Body.setVelocity(redPiece.body, {x: -12, y: 13});
-    redSpaces = 5;
-  }
-
-  if(redSpaces === 40){
-    Matter.Body.setVelocity(redPiece.body, {x:12, y:20});
-    redSpaces = 3;
-  }
-
-  if(redSpaces === 54){
-    Matter.Body.setVelocity(redPiece.body, {x: -5, y: 1});
-    redSpaces = 31;
-  }
-
-  if(redSpaces === 66){
-    Matter.Body.setVelocity(redPiece.body, {x:7, y: 26});
-    redSpaces = 45;
-  }
-
-  if(redSpaces === 76){
-    Matter.Body.setVelocity(redPiece.body, {x: -5, y: 8});
-    redSpaces = 58;
-  }
-
-  if(redSpaces === 89){
-    Matter.Body.setVelocity(redPiece.body, {x: -14, y: 30});
-    redSpaces = 53;
-  }
-  if(redSpaces === 99){
-    Matter.Body.setVelocity(redPiece.body, {x: -14, y: 39});
-    redSpaces = 41;
-  }
-}*/
 
 function setup() {
   //create canvas
